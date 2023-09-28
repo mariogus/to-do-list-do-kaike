@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.caixa {
+  border: 3px solid rgb(78, 172, 209);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.to-do{
+  color: aqua;
+  margin-left: 40px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task {
+    flex: 1;
+    word-break: break-all;
+}
+
+.delete-button {
+    background-color: aqua;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: aqua;
+    opacity: 0.4;
+}
